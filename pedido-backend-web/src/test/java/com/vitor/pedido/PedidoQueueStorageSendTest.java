@@ -26,7 +26,7 @@ class PedidoQueueStorageSendTest {
 
     @Test
     void deveEnviarPedidoParaFilaEAtualizarStatus() {
-        // Arrange
+
         UUID id = UUID.randomUUID();
         Pedido pedido = new Pedido();
         pedido.setIdPedido(id);
