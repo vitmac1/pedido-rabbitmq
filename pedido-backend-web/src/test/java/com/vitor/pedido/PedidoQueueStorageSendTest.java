@@ -1,5 +1,5 @@
-import com.vitor.pedido.Pedido;
-import com.vitor.pedido.PedidoStatusService;
+package com.vitor.pedido;
+
 import com.vitor.pedido.send.PedidoQueueStorageSend;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
