@@ -25,7 +25,7 @@ public class PedidoCommandEndpoint {
     private final PedidoStatusService pedidoStatusService;
 
     @PostMapping
-    public ResponseEntity<?> enviarPedido(@Valid @RequestBody Pedido pedido) {
+    public ResponseEntity<Pedido> enviarPedido(@Valid @RequestBody Pedido pedido) {
 
         return new ResponseEntity<>(pedidoCommandService.processarPedido(pedido), HttpStatus.ACCEPTED);
     }
